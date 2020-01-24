@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-family: 'Armata', sans-serif;
+}
+
+.service-small {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+ .navbar {
+    display: flex;
+    height: 100px;
+    margin: 0;
+    align-content: center;
+}
+
+header {
+    border-bottom: 20px solid rgb(160,198,63);
+}
+
+header a {
+    color: black;
+}
+
+header nav {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    align-content: center;
+    list-style: none;
+    margin: auto;
+}
+
+header li {
+    margin-left: 25px;
+}
+
+.hero {
+    background-color: rgb(160,198,63);
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-bottom {
+    background-color: whitesmoke;
+    border-bottom: 1px dashed rgb(224, 224, 224);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-ring {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 50%;
+}
+
+.img-ring-inner, .img-ring-inner img {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgb(142,181,62);
+    border-radius: 50%;
+}
+
+h3 {
+    text-align: center;
+}
+.green {
+    color: rgb(160,198,63);
+}
+
+.portfolio a {
+    background-color: rgb(160,198,63);
+    padding: 3px 5px 3px 5px;
+    margin-right: 5px;
+    color: whitesmoke;
+    border-radius: 5%;
+    font-size: 12px;
+}
+
+.row-outer {
+    /* margin-bottom: 15px; */
+}
+
+.row-inner {
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    margin: 15px 0;
+}
+
+.row-inner img {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+
+footer {
+    background-color: white;
+}
+
+footer h2 {
+    font-size: 18px;
+    
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer nav a {
+    color: whitesmoke;
+}
+
+footer li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.archives li {
+    border-bottom: 1px dashed rgb(197, 197, 197);
+}
+
+.archives li:last-child {
+    border: none;
+}
+
+.contact img {
+    margin-right: 10px;
+}
+
+.follow-icon-row {
+    padding-left: 5px;
+}
+
+.follow-icons li{
+    display: inline;
+}
+
+footer {
+    position: relative;
+}
+
+footer input {
+    margin: 5px 0;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px 0 rgb(200, 200, 200);
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+footer button {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: whitesmoke;
+    background-color: rgb(160,198,63);
+    border: none;
+}
+
+.bottom-nav {
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+}
+
+.bottom-nav li {
+    display: inline;
+    color: whitesmoke;
+    margin-right: 10px;
+    font-family: 'armata';
+}
+
+.bottom-nav p {
+    text-align: right;
+    font-size: 12px;
+}
+
+
+/* about page */
+
+.about-us img, .heading img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.heading li {
+    margin-left: 15px;
+}
