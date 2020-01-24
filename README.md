@@ -1,0 +1,1 @@
+This was a landing page demo that was completed as a project for a frontend web development bootcamp
